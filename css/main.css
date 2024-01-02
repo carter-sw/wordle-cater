@@ -1,0 +1,72 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  gap: 50px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #d3d6da;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.bar3 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d3d6da;
+}
+.lmg {
+  display: flex;
+}
+.wordle {
+  font-weight: bold;
+  font-size: 25px;
+  width: 15px;
+}
+
+.keyboard-column.wide {
+  width: 70px;
+  font-size: small;
+}
+
+.backspace {
+  width: 25px;
+}
